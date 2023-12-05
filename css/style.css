@@ -505,6 +505,7 @@ section{
     grid-column: span 1;
 }
 
+
 @media (min-width:600px){
     .projects_grid{
         gap:60px 24px;
@@ -568,6 +569,30 @@ section{
     }
     .portfolio_grid{
         grid-template-columns:repeat(3, 1fr) ;
+    }
+    .fullsize_horizontal{
+        border: 3px solid #f5a2a1;
+        z-index:999;
+        cursor: zoom-out;
+        display:block;
+        width:800px;
+        max-width: 800px;
+        height: 600px;
+        position:fixed;
+        left:300px;
+        top:50px;
+    }
+    .fullsize_vertical{
+        border: 3px solid #f5a2a1;
+        z-index:999;
+        cursor: zoom-out;
+        display:block;
+        width:500px;
+        max-width: 500px;
+        height: 650px;
+        position:fixed;
+        left:450px;
+        top:10px;
     }
 
 }
